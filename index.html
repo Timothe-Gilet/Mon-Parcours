@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GILET : Mon parcours</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="GILET-style.css">
+</head>
+
+<body>
+    <div class="Titre">
+        <h1>GILET Timothé : Mon Parcours</h1>
+    </div>
+    
+    <div class="page">
+        <div class="texte">
+                
+            <h2>Biographie</h2>
+                <p>Je m'appelle Timothé GILET, je suis né le 8 octobre 2007 à Lorient. Je suis l'ainé de la famille, j'ai un frère né en 2009 et une soeur née en 2012.
+                </br>Je pratique le karaté depuis l'âge de 3 ans et je joue aux échecs régulièrement. J'aime comprendre, analyser et résoudre des problèmes dans le domaine des mathématiques, ainsi que relever des défis, j'ai participé à des CTF.
+                </br>Passionné d'informatique et de nouvelles technologies, je souhaite m'orienter dans le domaine de la cybersécurité ou de la cyberdéfense.</p>
+
+            <h2>Parcours scolaire</h2>
+                <p>J'ai obtenu mon brevet des collèges avec la mention très bien. 
+                </br>Au lycée, en classe de première j'ai choisi les spécialités maths, physique-chimie et sciences de l'ingénieur, puis en terminal j'ai conservé les spécialités maths et physique-chimie en prenant également l'option maths expertes.
+                </br>J'ai obtenu ma certification PIX avec le niveau : "indépendant 2" et mon baccalauréat avec la mention bien.
+                </br></br>Je suis actuellement en 1ère année de PEI-A (Préparation d'Ecole d'Ingénieure) à l'ENSIBS de Lorient, pour intégrer par la suite la formation cyberdéfense ou cybersécurité à l'ENSIBS de Vannes.
+                </br></br>Pour intégrer le parcours PEI, il faut réussir le concours <a href="https://www.geipi-polytech.org/">Geipi Polytech</a> 
+                ce qui permettra par la suite de rentrer à l'école d'ingénieure <a href="https://www-ensibs.univ-ubs.fr/fr/index.html">ENSIBS</a> (Cliquer sur les liens pour plus d'informations).</p>
+                <h4 id="ma_formation_JS">Cliquez sur le bouton ci-dessous pour faire apparaitre un résumé de mon parcours : </h4>
+                    <script>
+                        function myFunction(){
+                            document.getElementById("ma_formation_JS").style.fontSize = "20px";
+                            document.getElementById("ma_formation_JS").style.color = "black;"
+                            document.getElementById("ma_formation_JS").style.backgroundColor = "lightblue";
+                            document.getElementById("ma_formation_JS").innerHTML = "Bac général -> Concours Geipi Polytech -> PEI-A -> Formation Ingénieur Cyber";
+                        }
+                    </script>
+                    <button type="button" onclick="myFunction()" id="button-formation">Découvrir ma formation</button>
+
+            <h2>Curriculum Vitae</h2>
+                <p>Pour découvrir mon CV intéractif, cliquez sur le bouton ci-dessous permettant d'aller sur cette page : </p>
+                <a href="CV-intéractif.html" class="button-lien">CV-intéractif</a>
+
+            <h2>Stage dans la marine nationale</h2>
+                <p>Pour découvrir les activités de mon stage, cliquez sur le bouton ci-dessous :</p>
+                <a href="Stage.html" class="button-lien">Stage d'observation</a>
+
+        </div>
+
+        <div class="colonne">
+            <div class="section">
+                <div class="cadre"><img src="GILET-photo.png" alt="image parcours" width="160" height="200">GILET Timothé</div>
+            </div>
+            <div class="section">
+                <p>Contactez-moi sur Linkedin : <a href="https://www.linkedin.com/in/timoth%C3%A9-gilet-3073193b6/" class="button-style">Contactez-moi</a></p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
